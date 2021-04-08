@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animasi Transisi</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        /*tablet*/
+        .box{
+            width: 70%;
+            margin-left: 15%;
+            border: 2px solid #212121;
+            -moz-transition: width 1s ease-in-out;
+            transition: width 1s ease-in-out;
+        }
+        /*dekstop*/
+        @media (orientation: landscape){
+            .box{
+                margin-left: 0px;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h3>Animasi Transisi Leaf</h3></center>
+    <img class="box" src="https://wallpaperaccess.com/full/1257814.jpg" alt="slider.png">
+    <center><p>A flattened structure of a higher plant, typically green and blade-like, that is attached to a stem directly or via a stalk. Leaves are the main organs of photosynthesis and transpiration.</p>
+</center>
+</body>
